@@ -22,5 +22,7 @@ models = [
     Model("gpt-3.5-turbo-16k", 0.003, 0.004, 16384),
     Model("gpt-3.5-turbo-0613", 0.0015, 0.002, 4096),
     Model("gpt-3.5-turbo-16k-0613", 0.003, 0.004, 16384),
+    Model("huggingface/mistralai/Mistral-7B-v0.1", 0.001, 0.001, 16384),
+    Model("command-nightly", 0.001, 0.001, 16384),
 ]
 _model_dict = {model.name: model for model in models}
